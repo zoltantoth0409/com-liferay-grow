@@ -1,0 +1,28 @@
+{
+	"name": "grow-theme-user-profile",
+	"version": "1.0.1",
+	"main": "package.json",
+	"scripts": {
+		"test": "gulp build"
+	},
+	"license": "GPL-3.0",
+	"repository": "balcsida/grow-theme-user-profile",
+	"keywords": [
+		"liferay-theme"
+	],
+	"liferayTheme": {
+		"baseTheme": "styled",
+		"screenshot": "",
+		"rubySass": false,
+		"templateLanguage": "ftl",
+		"version": "7.0"
+	},
+	"devDependencies": {
+		"gulp": "^3.9.1",
+		"liferay-theme-tasks": "8.0.0-beta.5",
+		"liferay-theme-deps-7.0": "8.0.0-beta.5"
+	},
+	"publishConfig": {
+		"tag": "7_0_x"
+	}
+}
